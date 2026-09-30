@@ -1,0 +1,11 @@
+marks = input("Enter the marks as an array: ");
+total = sum(marks);
+average = mean(marks);
+maximum = max(marks);
+minimum = min(marks);
+disp("Marks = ");
+disp(marks);
+disp("Total Marks = " + string(total));
+disp("Average Marks = " + string(average));
+disp("Maximum Mark = " + string(maximum));
+disp("Minimum Mark = " + string(minimum));
