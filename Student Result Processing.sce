@@ -1,0 +1,18 @@
+marks = [75 82 68;88 91 79;65 70 72;92 85 90;78 76 84];
+disp("Student Marks:");
+disp(marks);
+student_total = sum(marks, "c");
+student_average = mean(marks, "c");
+subject_highest = max(marks, "r");
+subject_lowest = min(marks, "r");
+class_average = mean(marks);
+disp("Total marks of each student:");
+disp(student_total);
+disp("Average marks of each student:");
+disp(student_average);
+disp("Highest mark in each subject:");
+disp(subject_highest);
+disp("Lowest mark in each subject:");
+disp(subject_lowest);
+disp("Overall Class Average:");
+disp(class_average);
