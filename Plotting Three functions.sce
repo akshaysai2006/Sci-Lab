@@ -1,0 +1,10 @@
+x = -5:0.1:5;
+y1 = x;
+y2 = x.^2;
+y3 = x.^3;
+plot(x,y1,x,y2,x,y3);
+xlabel("X");
+ylabel("Y");
+title("Comparison of Three Functions");
+legend("y = x","y = x^2","y = x^3");
+xgrid();
