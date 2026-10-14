@@ -1,0 +1,11 @@
+name = input("Enter employee name: ","s");
+basic = input("Enter basic salary: ");
+HRA = basic * 0.20;
+DA = basic * 0.10;
+gross = basic + HRA + DA;
+printf("\n--- Salary Details ---\n");
+printf("Employee Name : %s\n", name);
+printf("Basic Salary : Rs. %.2f\n", basic);
+printf("HRA : Rs. %.2f\n", HRA);
+printf("DA : Rs. %.2f\n", DA);
+printf("Gross Salary : Rs. %.2f\n", gross);
