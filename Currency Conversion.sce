@@ -1,0 +1,12 @@
+rupees = input("Enter amount in INR: ");
+usd_rate = input("Enter INR value of 1 USD: ");
+euro_rate = input("Enter INR value of 1 Euro: ");
+pound_rate = input("Enter INR value of 1 Pound: ");
+usd = rupees / usd_rate;
+euro = rupees / euro_rate;
+pound = rupees / pound_rate;
+printf("\n--- Currency Conversion ---\n");
+printf("Indian Rupees : Rs. %.2f\n", rupees);
+printf("US Dollar : %.2f\n", usd);
+printf("Euro : %.2f\n", euro);
+printf("British Pound : %.2f\n", pound);
